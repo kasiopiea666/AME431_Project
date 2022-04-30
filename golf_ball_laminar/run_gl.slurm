@@ -12,6 +12,6 @@
 cd $SLURM_SUBMIT_DIR
 date
 module load openmpi3 su2p
-mpiexec SU2_CFD *.cfg |& tee screen.dat
+mpiexec SU2_CFD golf_ball_laminar.cfg |& tee screen.dat
 date
 
