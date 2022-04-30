@@ -8,7 +8,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks=4
 #SBATCH --mem=8gb
-#SBATCH --time 2:00:00
+#SBATCH --time 3:00:00
 cd $SLURM_SUBMIT_DIR
 date
 module load openmpi3 su2p
